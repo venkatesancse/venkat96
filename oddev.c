@@ -1,21 +1,10 @@
-#include <stdio.h>
-main()
+#include<stdio.h>
+void main()
 {
-int num;
-scanf("%d",&num);
-if(num>0)
-{
-    if(num%2==0)
-    {
-    printf("Even");
-    }
-else if(num%2!=0)
-    {
-    printf("Odd");
-    }
-}
-else
- { 
-     printf("Invalid");
- }
+    int n;
+    scanf("%d",&n);
+    if(n>0)
+        (n%2==0)?printf("even"):printf("odd");
+    else
+        printf("Invalid");
 }
