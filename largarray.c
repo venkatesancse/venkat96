@@ -7,7 +7,7 @@ for(i=0;i<size;i++)
   {
   scanf("%d",&a[i]);
   }
-  if(1<=size<=100000)
+  if(1<size && size<=100000)
   {
   max=a[0];
   for(i=1;i<size;i++)
@@ -23,4 +23,4 @@ for(i=0;i<size;i++)
   else
   {
   printf("Invalid");
-  }
+  }}
