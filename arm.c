@@ -12,7 +12,7 @@ r=n%10;
 s=s+(r*r*r);
 n=n/10;
 }
-(temp=s) ? printf("Yes") : printf("No");
+(temp=s) ? printf("yes") : printf("no");
 }
 else
 {
