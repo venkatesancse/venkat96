@@ -6,7 +6,7 @@ scanf("%d",&n);
 if(n<=100000)
 {
 temp=n;
-while(n>0)
+while(n>99)
 {
 r=n%10;
 s=s+(r*r*r);
