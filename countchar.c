@@ -1,15 +1,20 @@
 #include <stdio.h>
 #include <string.h>
- 
 void main()
 {
-    char s[200];
-    int count = 0, i;
-    scanf("%[^\n]s", s);
-    for (i = 0;s[i] != '\0';i++)
+    char str[50];
+    int i=0, chr=0;
+    scanf("%s",&str);
+    while (str[i] != '\0')
     {
-        if (s[i] == ' ')
-            count++;    
+        if (str[i] == ' ')
+        {
+         word++;
+            chr++;
+        }
+        else
+            chr++;
+        i++;
     }
-    printf("%d\n", count + 1);
+    printf("\n %d", chr);
 }
