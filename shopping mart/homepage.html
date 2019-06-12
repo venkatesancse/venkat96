@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Ram Shopping Mart</title>
+		<script type="text/javascript" src="new/js/blockUI.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css1/fontawesome.min.css">
+		<link rel="stylesheet" type="text/css" href="home.css">
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top">
+			<div class="container-fluid">
+			<div class="navbar-header">
+				<button type ="hover" class="navbar-toggle " data-toggle="collapse" data-target="#mynavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			<h3><a class="navbar-brand glyphicon glyphicon glyphicon-qrcode" href="#">Ram Shopping Mart</a></h3>
+			</div>
+			<div id="mynavbar " class="collapse navbar-collapse">
+				<ul class=" nav navbar-nav">
+					<li><a class="navbar navbar-btn glyphicon glyphicon-home  "  href="homepage.html" >Home</a>
+					<li> <a class="navbar navbar-btn glyphicon glyphicon-sort-by-alphabet" href="product.html"> Product</a>
+					<li> <a class="navbar navbar-btn glyphicon glyphicon-shopping-cart" href="cart.html"> Cart</a>
+					<li><a class="navbar navbar-btn glyphicon glyphicon-list-alt"  href="aboutus.html" >Contect Us</a>
+				</ul>
+			</div>
+			</div>
+		</nav>		
+		
+		<div class="container-flued ">
+			<div class="jumbotron  ">
+			<h1 class="text-center text-primary margin-top:30px"> RAM SHOPPING MART <h1>
+			<blockquote class="text-center"> <h6><mark > "More Quality, Less Price" <mark></blockquote>
+			</div>
+		<div class="row">
+			<div class="col-md-4">
+			<img src="cart.gif" alt="shopping image" class="image " width="500" height="300"></img>
+			</div>
+			<div class="col-md-4 bg-default text-center">
+				<div class="form">
+				<form  action="#" >
+				<h3 class="text-center text-success">Customer LogIn <i class="fas fa-user-secret fas-right" alt="user-logo"></i></h3><br>
+				
+				
+				<input type="text" id="cusname" class="form-controls" placeholder="Enter your name" required><br>
+				<input type="email" id="email"  placeholder="Enter your mailid" required><br>
+				<input type="text"  id="con" placeholder="Contect" required><br>
+				<button href="product.html" class="btn btn-success " value="submit" type ="submit" onclick="alert('Your are a wonderful Customer!!! Your Id is' Submit(count));">Sumbit</button>
+				</form>
+				
+				</div>
+			</div>
+			<div class="col-md-4">
+					<marquee behavior="scroll" direction="left">
+				<img src="sm.jpg" width="400" height="300" alt="smile">
+						</marquee>
+			</div>
+			
+		</div>
+		<div class="jumbotron">
+		<h3 class="text-warning"><marquee behavior="scroll" direction="left">Today Sale is Going On....Time :10 a.m to 10 p.m</marquee></h3>
+		</div>
+		<script type="text/javascript">
+			function submit()
+				{
+					if(localStorage.hits)
+					{
+					localStorage.hits=Number(localStorage.hits)+1;
+					}
+					else
+					{
+					localStorage.hits=1;
+					}
+					a=document.getElementById("al").innerHtML="Count"+""+sessionStorage.hits;
+				alert('your are valueble Customerr!!! Customer Id is:'+a); 
+				}	
+			</script>
+		<script type="text/javascript" src="js/bootstrap.min.js"> </script>
+			<script type="text/javascript" src="js/jquery.js"></script>
+			
+	</body>
+</html>
