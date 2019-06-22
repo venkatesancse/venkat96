@@ -1,7 +1,7 @@
 n=input()
-p=set(n)
+r=set(n)
 s={'0','1'}
-if s==p or p=={'0'} or p=={'1'}:
+if s==r or r=={'0'} or r=={'1'}:
   print('yes')
 else:
   print('no')
