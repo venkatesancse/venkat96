@@ -1,7 +1,8 @@
-#include <stdio.h>
-int main()
-{
-   char str[10];
-   scanf("%s",&str);
-   printf("%s",str);
-}
+#include<stdio.h> 
+int main() 
+{ 
+   char str[20];
+   gets(str);
+    if (printf("%s",str) ) 
+      {    } 
+}  
