@@ -2,12 +2,12 @@
 #include<math.h>
 int main()
 {
-	int n,itr,sqr;
-	scanf("%d",&n);
-	sqr=sqrt(n);
+	int N,itr,sqr;
+	scanf("%d",&N);
+	sqr=sqrt(N);
 	for(itr=2;itr<=sqr;itr++)
 	{
-		if(n%itr==0)
+		if(N%itr==0)
 		{
 			printf("yes");
 			break;
