@@ -1,0 +1,99 @@
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 60px !important;
+    line-height: 20px;
+    margin-top: 30px !important;
+    font-family: Felix Titling !important;
+    margin-right:50px;
+}
+.linkin, .facebook, .twitter, .youtube, .googleplus {
+    width: 40px;
+    height: 35px;
+    display: block;
+    margin-bottom: 7px;
+    outline: none;
+    -moz-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.img {
+    vertical-align: middle;
+    width: 40px;
+    margin-top:60px;
+}
+
+.navbar-nav>li>a 
+{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 100px;
+	margin-right:30px;
+	color:#ffffff;
+}
+b, strong {
+    font-weight: 700;
+    margin-left: 50px;
+    margin-top: auto;
+}
+.h2, h2 {
+    font-size: 30px;
+    margin-left: 50px;
+}
+.jumbotron {
+    padding-top: 30px;
+    padding-bottom: 110px;
+    margin-bottom: 0px;
+    color: inherit;
+    background-color: rgb(8, 9, 15);
+}
+*{
+	padding:0px;
+	margin:0px;
+	box-sizing:border-box;
+}
+.carousel-container
+{
+	width:100%;
+	margin:auto;
+	overflow:hidden;
+	position:relative;
+	 
+}
+.carousel-slide
+{
+	display:flex;
+	width:100%;
+	height:500px;
+}
+#prevbtn
+{
+	position:absolute;
+	top:50%;
+	z-index:10;
+	left:5%;
+	font-size:30px;
+	color:white;
+	opacity:0.7;
+	cursor:pointer;
+}
+#nextbtn
+{
+	position:absolute;
+	top:50%;
+	z-index:10;
+	right:5%;
+	font-size:30px;
+	color:white;
+	opacity:0.7;
+	cursor:pointer;
+}
+.facebook {
+    background: url(../images/social-network.png) no-repeat scroll -1px -83px transparent;
+}
+#lef {
+    color: #25d0d2;
+    font-size: 20px;
+}
